@@ -46,6 +46,11 @@ jobs:
       - name: Generate Doxygen files
         run: ~/doxygen/bin/doxygen ./SGDK/doc/doxyconfig
 
+      - name: Pack HTML documentation into a zip file
+        run: |
+          cd /tmp/doxygen/html
+          zip -r ../documentation.zip .
+
       # Step to upload the generated files as an artifact
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
