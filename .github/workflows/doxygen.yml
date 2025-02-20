@@ -49,7 +49,7 @@ jobs:
       - name: Pack HTML documentation into a zip file
         run: |
           cd /tmp/doxygen/html
-          zip -r ../documentation.zip .
+          zip -r ../documentation.zip ./html
 
       # Step to upload the generated files as an artifact
       - name: Upload artifact
