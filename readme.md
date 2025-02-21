@@ -37,7 +37,7 @@ Then when you feel ready you can go further and finally install SGDK :)
 You can find installation instructions and tutorials about how use SGDK on the wiki:<br>
 https://github.com/Stephane-D/SGDK/wiki
 
-SGDK comes with doxygen documentation (generated from .h header files) which provides descriptions about SGDK structures and functions. You can find it in the _'doc'_ folder (open your local _doc/html/files.html_ in your browser).
+Offline code documentation (generated from .h header files) is avaiable within the _'doc'_ folder provided by the tool doxygen.
 
 It's important to know that SGDK heavily relies on _resources_ which are compiled through the _rescomp_ tool. You should read the [rescomp.txt](https://raw.githubusercontent.com/Stephane-D/SGDK/master/bin/rescomp.txt) file to understand **which kind of resources you can use and how to declare them**. Then you can look at the *'sample'* folder from SGDK and, in particular, the [sonic sample](https://github.com/Stephane-D/SGDK/tree/master/sample/game/sonic) which is a good showcase of SGDK usage in general (functions and resources).
 
