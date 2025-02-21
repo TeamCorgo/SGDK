@@ -6,7 +6,7 @@ on:
 env:
   # Used to find the download link:
   # https://www.doxygen.nl/files/doxygen-X.XX.X.linux.bin.tar.gz
-  # Version # updated on: 2024.01.06
+  # Version # updated on: 2025.02.21
   DOXYGEN_VERSION: 1.13.2
 
 jobs:
