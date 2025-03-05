@@ -944,7 +944,7 @@ int16_t mw_ga_request(enum mw_http_method method, const char **path,
  * \brief List available upgrades WiFi module firmware.
  *
  * \param[in] page           Page of list
- * \param[in] page_size      Page size of list
+ * \param[in] size      	 Page size of list
  * \param[in] offset         Offset number
  * \param[out] listUpgrades  Pointer to list of char*
  * \param[out] len 			 Result length

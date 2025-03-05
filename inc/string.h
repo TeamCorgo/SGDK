@@ -128,7 +128,7 @@ char* strcat(char *dest, const char *src);
  *      Composes a string with the same text that would be printed if format was used on printf,
  *      but instead of being printed, the content is stored as a C string in the buffer pointed by str.
  *
- *  \param buf
+ *  \param buffer
  *      Destination string (it must be large enough to receive result).
  *  \param fmt
  *      C string that contains the text to be written to destination string.<br />
