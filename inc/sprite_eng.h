@@ -48,7 +48,7 @@
  *      By default, an animation restarts after the last frame has been played.
  *      This flag prevents the animation from restarting, ensuring it remains on the last frame indefinitely.
  *
- *  \see #SPR_getAnimationDone(Sprite*)
+ *  @see #SPR_getAnimationDone(Sprite*)
  */
 #define SPR_FLAG_DISABLE_ANIMATION_LOOP         0x2000
 /**
@@ -841,7 +841,7 @@ bool SPR_getAutoAnimation(Sprite* sprite);
  *      TRUE to enable animation loop (default), FALSE otherwise
  *
  *  \see SPR_FLAG_DISABLE_ANIMATION_LOOP
- *  \see #SPR_getAnimationDone(Sprite*)
+ *  @see #SPR_getAnimationDone(Sprite*)
  */
 void SPR_setAnimationLoop(Sprite* sprite, bool value);
 /**

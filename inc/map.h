@@ -339,7 +339,7 @@ u16 MAP_getTile(Map* map, u16 x, u16 y);
  *  \param dest
  *      destination pointer receiving metatiles attribute data
  *
- *  \return
+ *  \details
  *      metatiles attribute:<br>
  *      - b15: priority override<br>
  *      - b14-b13: free, can be used to encode collision info ?<br>
@@ -370,7 +370,7 @@ void MAP_getMetaTilemapRect(Map* map, u16 x, u16 y, u16 w, u16 h, u16* dest);
  *  \param dest
  *      destination pointer receiving tiles attribute data
  *
- *  \return
+ *  \details
  *      tiles attribute:<br>
  *      - b15: priority<br>
  *      - b14-b13: palette<br>
