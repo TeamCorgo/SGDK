@@ -114,7 +114,7 @@
  *      <b>...  </b>    = ...<br>
  *      <b>JOY_8</b>    = joypad 8 (only possible with 2 teamplayers connected)<br>
  *      <b>JOY_ALL</b>  = joypad 1 | joypad 2 | ... | joypad 8<br>
- *  \param change
+ *  \param changed
  *      Changed state (button for which state changed).<br>
  *      <b>BUTTON_UP</b>    = UP button<br>
  *      <b>BUTTON_DOWN</b>  = DOWN button<br>
