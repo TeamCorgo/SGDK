@@ -44,10 +44,11 @@
 #define SPR_FLAG_INSERT_HEAD                    0x4000
 /**
  *  \brief
- *      Disable animation auto loop.<br>
- *      By default animation always restart after the last frame has been played.
- *      This flag prevent the animation to restart and so the animation end on the last frame forever
- *  \see #SPR_getAnimationDone(..)
+ *      Disables automatic animation looping.<br>
+ *      By default, an animation restarts after the last frame has been played.
+ *      This flag prevents the animation from restarting, ensuring it remains on the last frame indefinitely.
+ *
+ *  \see #SPR_getAnimationDone(Sprite*)
  */
 #define SPR_FLAG_DISABLE_ANIMATION_LOOP         0x2000
 /**
