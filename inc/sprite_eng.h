@@ -839,7 +839,6 @@ bool SPR_getAutoAnimation(Sprite* sprite);
  *      TRUE to enable animation loop (default), FALSE otherwise
  *
  *  \see SPR_FLAG_DISABLE_ANIMATION_LOOP
- *  \see #SPR_getAnimationDone(Sprite*)
  */
 void SPR_setAnimationLoop(Sprite* sprite, bool value);
 /**
