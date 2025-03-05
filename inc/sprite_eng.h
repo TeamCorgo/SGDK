@@ -46,7 +46,7 @@
  *  \brief
  *      Disable animation auto loop.<br>
  *      By default animation always restart after the last frame has been played.
- *      This flag prevent the animation to restart and so the animation end on the last frame forever (see #SPR_getAnimationDone(..))
+ *      This flag prevent the animation to restart and so the animation end on the last frame forever (see #SPR_getAnimationDone)
  */
 #define SPR_FLAG_DISABLE_ANIMATION_LOOP         0x2000
 /**
